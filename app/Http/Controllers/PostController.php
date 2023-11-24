@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StorepostRequest;
-use App\Http\Requests\UpdatepostRequest;
-use App\Models\post;
+use App\Http\Requests\StorePostRequest;
+use App\Http\Requests\UpdatePostRequest;
+use App\Models\Post;
 
 class PostController extends Controller
 {
@@ -19,7 +19,7 @@ class PostController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StorepostRequest $request)
+    public function store(StorePostRequest $request)
     {
         //
     }
@@ -27,7 +27,7 @@ class PostController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(post $post)
+    public function show(Post $post)
     {
         //
     }
@@ -35,7 +35,7 @@ class PostController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdatepostRequest $request, post $post)
+    public function update(UpdatePostRequest $request, Post $post)
     {
         //
     }
@@ -43,7 +43,7 @@ class PostController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(post $post)
+    public function destroy(Post $post)
     {
         //
     }
